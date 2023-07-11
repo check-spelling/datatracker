@@ -279,7 +279,7 @@ def rsab_needed_ballot_positions(doc, active_positions):
         # approved if all RSAB members recuse
         answer.append("Needs a YES position.")
     if count["none"] > 0:
-        answer.append("Some members have have not taken a position.")
+        answer.append("Some members have not taken a position.")
     return " ".join(answer)
         
 def create_ballot(request, doc, by, ballot_slug, time=None):
