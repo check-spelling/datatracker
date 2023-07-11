@@ -354,7 +354,7 @@
   },
   {
     "fields": {
-      "desc": "The AD has requested that the Secretariat start an IETF Last Call, but the the actual Last Call message has not been sent yet.",
+      "desc": "The AD has requested that the Secretariat start an IETF Last Call, but the actual Last Call message has not been sent yet.",
       "name": "Last Call Requested",
       "next_states": [
         15

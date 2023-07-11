@@ -6927,7 +6927,7 @@
     },
     "processingIssuesAvailability": {
      "type": "string",
-     "description": "This value indicates whether the video processing engine has generated suggestions that might improve YouTube's ability to process the the video, warnings that explain video processing problems, or errors that cause video processing problems. You can retrieve these suggestions by requesting the suggestions part in your videos.list() request."
+     "description": "This value indicates whether the video processing engine has generated suggestions that might improve YouTube's ability to process the video, warnings that explain video processing problems, or errors that cause video processing problems. You can retrieve these suggestions by requesting the suggestions part in your videos.list() request."
     },
     "processingProgress": {
      "$ref": "VideoProcessingDetailsProcessingProgress",
