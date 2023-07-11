@@ -254,7 +254,7 @@ class SearchableField(forms.MultipleChoiceField):
         pass
 
     def describe_failed_pks(self, failed_pks):
-        """Format error message to display when non-existent PKs are referenced"""
+        """Format error message to display when nonexistent PKs are referenced"""
         return ('Could not recognize the following {model_name}s: {pks}. '
                 'You can only input {model_name}s already registered in the Datatracker.'.format(
             pks=', '.join(failed_pks),

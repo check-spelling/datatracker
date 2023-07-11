@@ -54,7 +54,7 @@ class SwapTimeslotsFormTests(TestCase):
         self.assertTrue(form.is_valid())
 
     def test_invalid(self):
-        # the magic numbers are (very likely) non-existent pks
+        # the magic numbers are (very likely) nonexistent pks
         form = SwapTimeslotsForm(
             meeting=self.meeting,
             data={
