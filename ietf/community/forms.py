@@ -26,7 +26,7 @@ class SearchRuleForm(forms.ModelForm):
         fields = ('state', 'group', 'person', 'text')
 
     def __init__(self, clist, rule_type, *args, **kwargs):
-        kwargs["prefix"] = rule_type # add prefix to avoid mixups in the Javascript
+        kwargs["prefix"] = rule_type # add prefix to avoid mixups in the JavaScript
         super(SearchRuleForm, self).__init__(*args, **kwargs)
 
         def restrict_state(state_type, slug=None):

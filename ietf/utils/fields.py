@@ -185,7 +185,7 @@ class SearchableField(forms.MultipleChoiceField):
     """Base class for searchable fields
 
     The field uses a comma-separated list of primary keys in a CharField element as its
-    API with some extra attributes used by the Javascript part.
+    API with some extra attributes used by the JavaScript part.
     
     When used in a form, the template rendering that form must include the form's media.
     This is done by putting {{ form.media }} in a header block. If CSS and JS should be

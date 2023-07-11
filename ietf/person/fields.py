@@ -57,7 +57,7 @@ class SearchablePersonsField(SearchableField):
 
     The field uses a comma-separated list of primary keys in a
     CharField element as its API with some extra attributes used by
-    the Javascript part.
+    the JavaScript part.
     
     If the field will be programmatically updated, any model instances
     that may be added to the initial set should be included in the extra_prefetch

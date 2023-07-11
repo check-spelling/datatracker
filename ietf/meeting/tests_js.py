@@ -148,7 +148,7 @@ class EditMeetingScheduleTests(IetfSeleniumTestCase):
         #
         #  https://github.com/seleniumhq/selenium-google-code-issue-archive/issues/3604
         #
-        # so for the time being we inject the Javascript workaround here and do it from JS
+        # so for the time being we inject the JavaScript workaround here and do it from JS
         #
         #  https://storage.googleapis.com/google-code-attachments/selenium/issue-3604/comment-9/drag_and_drop_helper.js
 

@@ -1,7 +1,7 @@
 // Copyright The IETF Trust 2021, All Rights Reserved
 
 /*
- Javascript support for the materials modal rendered by session_agenda_include.html
+ JavaScript support for the materials modal rendered by session_agenda_include.html
 
  Requires jquery be loaded
  */

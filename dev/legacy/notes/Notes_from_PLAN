@@ -15,7 +15,7 @@ Updated: $Date$
 
 * When we get to the point where we can produce pdf from xml+media, remove the
   pdf upload possibility -- it's a definite attack vector.  Possibly start scanning
-  pdf files for /JS and /JavaScript (and workarounds to hide Javascript)
+  pdf files for /JS and /JavaScript (and workarounds to hide JavaScript)
 
 * Add one or more API description pages with examples of common queries
 

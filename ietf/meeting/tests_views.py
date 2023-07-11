@@ -3430,7 +3430,7 @@ class EditTests(TestCase):
 
 
         # check we have the grid and everything set up as a baseline -
-        # the Javascript tests check that the Javascript can work with
+        # the JavaScript tests check that the JavaScript can work with
         # it
         url = urlreverse("ietf.meeting.views.edit_meeting_schedule", kwargs=dict(num=meeting.number))
         r = self.client.get(url)
@@ -3609,7 +3609,7 @@ class EditTests(TestCase):
         self.client.login(username="secretary", password="secretary+password")
 
         # check we have the grid and everything set up as a baseline -
-        # the Javascript tests check that the Javascript can work with
+        # the JavaScript tests check that the JavaScript can work with
         # it
         url = urlreverse("ietf.meeting.views.edit_meeting_timeslots_and_misc_sessions", kwargs=dict(num=meeting.number, owner=meeting.schedule.base.owner_email(), name=meeting.schedule.base.name))
         r = self.client.get(url)

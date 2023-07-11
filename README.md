@@ -29,7 +29,7 @@
     - [Parcel](#parcel-legacyjquery)
     - [Bootstrap](#bootstrap)
     - [Serving Static Files via CDN](#serving-static-files-via-cdn)
-    - [Handling of External Javascript and CSS Components](#handling-of-external-javascript-and-css-components)
+    - [Handling of External JavaScript and CSS Components](#handling-of-external-javascript-and-css-components)
     - [Handling of Internal Static Files](#handling-of-internal-static-files)
     - [Changes to Template Files](#changes-to-template-files)
     - [Deployment](#deployment)
@@ -140,7 +140,7 @@ This will create packages under `ietf/static/dist-neue`, which are then served b
 
 #### Parcel *(Legacy/jQuery)*
 
-The Datatracker includes these packages from the various Javascript and CSS files in `ietf/static/js` and `ietf/static/css` respectively, bundled using Parcel.
+The Datatracker includes these packages from the various JavaScript and CSS files in `ietf/static/js` and `ietf/static/css` respectively, bundled using Parcel.
 Static images are likewise in `ietf/static/images`.
 
 Whenever changes are made to the files under `ietf/static`, you must re-run the build command to package them:
@@ -162,9 +162,9 @@ Some ground rules:
 -   Think hard before tweaking the bootstrap CSS, it will make it harder to upgrade to future releases.
 -   No `<style>` tags in the HTML! Put CSS into the "morecss" block of a template instead.
 -   CSS that is used by multiple templates goes into static/css/ietf.css or a new CSS file.
--   Javascript that is only used on one template goes into the "js" block of that template.
--   Javascript that is used by multiple templates goes into static/js/ietf.js or a new js file.
--   Avoid CSS, HTML styling or Javascript in the python code!
+-   JavaScript that is only used on one template goes into the "js" block of that template.
+-   JavaScript that is used by multiple templates goes into static/js/ietf.js or a new js file.
+-   Avoid CSS, HTML styling or JavaScript in the python code!
 
 #### Serving Static Files via CDN
 
@@ -194,7 +194,7 @@ In order to work backwards from a file served in development mode to the locatio
 | localhost:8000/static/ietf/*  |  ietf/static/ietf/* |
 | localhost:8000/static/secr/*  |  ietf/secr/static/secr/*|
 
-#### Handling of External Javascript and CSS Components
+#### Handling of External JavaScript and CSS Components
 
 In order to make it easy to keep track of and upgrade external components, these are now handled by a tool called `yarn` via the configuration in `package.json`.
 

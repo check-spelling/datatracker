@@ -56,7 +56,7 @@ jQuery(document)
         }
 
         if (!content.hasClass("read-only")) {
-            // we handle the hover effect in Javascript because we don't want
+            // we handle the hover effect in JavaScript because we don't want
             // it to show in case the timeslot itself is hovered
             content.find(".room-label,.timeline")
                 .on("mouseover", function () {

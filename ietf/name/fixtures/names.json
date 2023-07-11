@@ -11148,7 +11148,7 @@
   },
   {
     "fields": {
-      "desc": "Javascript Object Notation",
+      "desc": "JavaScript Object Notation",
       "name": "JSON",
       "order": 5,
       "used": true
