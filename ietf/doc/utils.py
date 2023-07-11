@@ -1152,7 +1152,7 @@ def fuzzy_find_documents(name, rev=None):
     """Find a document based on name/rev
 
     Applies heuristics, assuming the inputs were joined by a '-' that may have been misplaced.
-    If returned documents queryset is empty, matched_rev and and matched_name are meaningless.
+    If returned documents queryset is empty, matched_rev and matched_name are meaningless.
     The rev input is not validated - it is used to find possible names if the name input does
     not match anything, but matched_rev may not correspond to an actual version of the found
     document.
