@@ -1696,7 +1696,7 @@ calculate_until_time			(int		 time,
     day_offset = 1;
   }
 
-  /* Sanity check - we shouldn't have an overflow any more. */
+  /* Sanity check - we shouldn't have an overflow anymore. */
   if (result < 0 || result >= 24 * 60 * 60) {
     fprintf (stderr, "Time overflow: %i\n", result);
     abort ();
@@ -1745,7 +1745,7 @@ calculate_wall_time			(int		 time,
     *day_offset = 1;
   }
 
-  /* Sanity check - we shouldn't have an overflow any more. */
+  /* Sanity check - we shouldn't have an overflow anymore. */
   if (result < 0 || result >= 24 * 60 * 60) {
     fprintf (stderr, "Time overflow: %i\n", result);
     exit (1);

@@ -738,7 +738,7 @@ def edit_meeting_schedule(request, num=None, owner=None, name=None):
                     days[day][rg_num][room.pk]['timeslots'] = ts_for_day
 
         # Now convert the OrderedDict entries into lists since we don't need to
-        # do lookup by pk any more.
+        # do lookup by pk anymore.
         for day in days.keys():
             days[day] = [list(rg.values()) for rg in days[day]]
 
